@@ -1,0 +1,42 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.744);
+    border-radius: 1rem;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+  }
+  
+  .about-image {
+    width: 700px;
+    margin-right: 20px;
+  }
+
+  .about-image:hover {
+    width: 750px;
+  }
+  
+  .about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+  }
+  
+  .about-text {
+    text-align: left;
+  }
+  
+  .about-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about-text p {
+    font-size: 16px;
+    color: #888;
+  }
+  
