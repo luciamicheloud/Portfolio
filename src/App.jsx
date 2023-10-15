@@ -1,20 +1,24 @@
-import React from 'react';
-import About from './components/about/About';
-import Skills from './components/skills/Skills';
-import Contact from './components/contact/Contact';
-import Projects from './components/projects/Projects';
-import Footer from './components/footer/Footer';
+import { Route, Routes } from "react-router-dom";
+import { useState } from "react";
+import './App.css'
+import Landing from './pages/Landing/Landing';
+import Home from './pages/Home/Home';
+import ContactPage from "./pages/Contact/ContactPage";
+import Proyects from "./pages/Proyects/Proyects";
 
 function App() {
+  const [count, setCount] = useState(0)
+
   return (
-    <div className="App">
-      <About />
-      <Skills />
-      <Contact />
-      <Projects />
-      <Footer />
-    </div>
-  );
+    <div className="body-container">
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/proyects" element={<Proyects />} />
+      </Routes>
+  </div>
+  )
 }
 
-export default App;
+export default App

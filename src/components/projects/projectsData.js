@@ -1,9 +1,9 @@
 const projectsData = [
     {
       id: 1,
-      name: 'Project 1',
-      description: 'Description of Project 1',
-      repoUrl: 'https://github.com/your-username/project1',
+      name: 'pi-dogs-henry',
+      description: 'Single Page Application developed based on the TheDogApi API using React, Redux, Node, Express, and Sequelize.',
+      repoUrl: 'https://github.com/luciamicheloud/pi-dogs-henry',
     },
     {
       id: 2,

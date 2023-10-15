@@ -8,7 +8,7 @@ const About = () => {
         <img src="src/images/LuciaMicheloudImage.jpg" alt="Mi foto" />
       </div>
       <div className="about-text">
-        <h2>Lucia Micheloud</h2>
+        <h2>About me</h2>
         <p>I'm currently a 19-year-old Full Stack Developer student at Henry.
             I'm passionate about learning new technologies and building innovative projects.
             Apart from my technical skills, I have also improved my soft skills,

@@ -3,7 +3,7 @@ import ProjectCard from './ProjectCard';
 import projectsData from './projectsData';
 import './projects.css';
 
-const Projects = () => {
+const ProjectsContainer = () => {
   return (
     <div className="projects-container">
       <h2>Projects</h2>
@@ -16,4 +16,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default ProjectsContainer;
