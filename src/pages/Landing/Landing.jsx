@@ -5,9 +5,10 @@ function Landing() {
   return (
     <div className="LandingContainer">
       <div>
-        <p>Hello!</p>
-        <p>I'm</p>
+        <p className="Hello">Hello!</p>
+        <p className="Iam">I'm</p>
       <h1 className="TitleLanding">Lucia Micheloud</h1>
+      <h2>Fullstack developer</h2>
       </div>
       <div>
       <button className="BtnLanding">
