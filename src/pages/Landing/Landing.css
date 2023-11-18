@@ -22,10 +22,20 @@
     font-size: 3vh;
 }
 
+.textContainer p:hover{
+    color: #636926;
+    scale: 1.01;
+}
+
 .textContainer h1{
     margin-bottom: 0vh;
     margin-top: 0vh;
     font-size: 12.5vh;
+}
+
+.textContainer h1:hover{
+    scale: 1.01;
+    color: #C7AA12;
 }
 
 .textContainer h2{
@@ -35,13 +45,24 @@
     color: #920A0A;
 }
 
+.textContainer h2:hover{
+    scale: 1.01;
+    color: white;
+}
+
 .contact-icons {
     display: flex;
 }
   
-  .contact-icons img {
+.contact-icons img {
     height: 10vh;
     margin-right: 5vh;
+    border-radius: 1vh;
+}
+
+.contact-icons img:hover {
+    scale: 1.02;
+    color: white;
 }
 
 .imageContainer {
