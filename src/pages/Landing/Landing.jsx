@@ -1,20 +1,34 @@
 import { Link } from "react-router-dom";
 import "./Landing.css";
+import Lucia from "../../images/own-photo.png"
 
 function Landing() {
   return (
     <div className="LandingContainer">
-      <div>
-        <p className="Hello">Hello!</p>
-        <p className="Iam">I'm</p>
-      <h1 className="TitleLanding">Lucia Micheloud</h1>
-      <h2>Fullstack developer</h2>
+
+<div className="welcomeContainer">
+
+      <div className="textContainer">
+        <p>Hello world!</p>
+        <p>I'm</p>
+        <h1>Lucia</h1>
+        <h1>Micheloud</h1>
+        <h2>Fullstack developer</h2>
       </div>
-      <div>
-      <button className="BtnLanding">
-        <Link to="/home">Let's now me!</Link>
-      </button>
+
+      <div className="btnContainer">
+        <Link to="/home">
+           <button>
+             Let's now me!
+           </button>
+         </Link>
       </div>
+</div>
+
+<div className="imageContainer">
+  <img src={Lucia} alt="" />
+</div>
+
     </div>
   );
 }

@@ -1,23 +1,57 @@
-/*/.LandingContainer {
+.LandingContainer {
+    display: flex;
     background-color: black;
-    align-items: center;
-    flex-wrap: nowrap;
-}/*/
+    min-height: 98vh;
+    padding: none;
+}
 
-.Hello{
-    font-size: small;
+.welcomeContainer {
+    margin: 3vh;
+    margin-top: auto;
+    margin-bottom: auto;
 
 }
 
-.Iam{
-    font-size: medium;
+.textContainer p{
+    margin-bottom: 0vh;
+    margin-top: 0vh;
+    font-size: 3vh;
 }
 
-.TitleLanding{
-
+.textContainer h1{
+    margin-bottom: 0vh;
+    margin-top: 0vh;
+    font-size: 12.5vh;
 }
 
-.BtnLanding{
-
+.textContainer h2{
+    margin-bottom: 8vh;
+    margin-top: 0vh;
+    font-size: 5vh;
+    color: #920A0A;
 }
 
+.btnContainer button{
+    background-color: #7E37A4;
+    border: none;
+    padding: 2.2vh 5vh;
+    border-radius: 0.4vh;
+}
+
+.btnContainer button:hover{
+    background-color: #612382;
+    scale: 0.95;
+    cursor: pointer;
+}
+
+.imageContainer {
+    margin-top: auto;
+    margin-left: auto;
+    padding: none;;
+}
+
+.imageContainer img{
+    width: 120vh;
+    padding: none;
+    margin-bottom: none;
+}
