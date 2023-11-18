@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="body-container">
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
       </Routes>
   </div>
   )
