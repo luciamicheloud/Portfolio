@@ -2,9 +2,9 @@
     padding: 50px;
     background-color: rgba(0, 0, 0, 0.744);
     border-radius: 1rem;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-right: 2.5vh;
+    margin-left: 2.5vh;
+    margin-top: 2.5vh;
   }
   
   .contact-icons {
@@ -14,7 +14,7 @@
   }
   
   .contact-icons img {
-    height: 10rem;
+    height: 10vh;
     margin: 30px;
   }
 

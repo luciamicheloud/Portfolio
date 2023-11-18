@@ -4,9 +4,6 @@ import './about.css';
 const About = () => {
   return (
     <div className="about-container">
-      <div className="about-image">
-        <img src="src/images/LuciaMicheloudImage.jpg" alt="Mi foto" />
-      </div>
       <div className="about-text">
         <h2>About me</h2>
         <p>I'm currently a 19-year-old Full Stack Developer student at Henry.

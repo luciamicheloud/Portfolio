@@ -4,17 +4,12 @@ import Skills from '../../components/skills/Skills';
 import Proyects from '../../components/projects/Projects';
 import Contact from '../../components/contact/Contact';
 import Footer from '../../components/footer/Footer';
-import logoutLogo from "../../images/logoutLogo.png";
-import { NavLink } from "react-router-dom";
+import Landing from '../Landing/Landing';
 
 function Home() {
   return (
     <div className="homeContainer">
-        <li>
-          <NavLink to="/">
-            <img className="logo" alt="log out" src={logoutLogo} />
-          </NavLink>
-        </li>
+      <Landing/>
       <About />
       <Skills />
       <Proyects/>

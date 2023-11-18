@@ -1,8 +1,12 @@
 .LandingContainer {
     display: flex;
-    background-color: black;
-    min-height: 98vh;
-    padding: none;
+    min-height: 50vh;
+    background-color: rgba(0, 0, 0, 0.708);
+    border-radius: 1rem;
+    margin-right: 2.5vh;
+    margin-left: 2.5vh;
+    margin-top: 2.5vh;
+    overflow: hidden;
 }
 
 .welcomeContainer {
@@ -31,17 +35,13 @@
     color: #920A0A;
 }
 
-.btnContainer button{
-    background-color: #7E37A4;
-    border: none;
-    padding: 2.2vh 5vh;
-    border-radius: 0.4vh;
+.contact-icons {
+    display: flex;
 }
-
-.btnContainer button:hover{
-    background-color: #612382;
-    scale: 0.95;
-    cursor: pointer;
+  
+  .contact-icons img {
+    height: 10vh;
+    margin-right: 5vh;
 }
 
 .imageContainer {
@@ -53,5 +53,5 @@
 .imageContainer img{
     width: 120vh;
     padding: none;
-    margin-bottom: none;
+    margin-bottom: -1vh;
 }
