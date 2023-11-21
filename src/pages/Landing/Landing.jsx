@@ -1,6 +1,6 @@
 import Contact from "../../components/contact/Contact";
 import "./Landing.css";
-import Lucia from "../../images/own-photo.png"
+import Lucia from "../../images/own-photo.png";
 
 function Landing() {
   return (

@@ -5,19 +5,19 @@
     margin-right: 2.5vh;
     margin-left: 2.5vh;
     margin-top: 2.5vh;
-  }
-  
-.contact-icons {
+}
+
+.contact-container {
     display: flex;
 }
   
-.contact-icons img {
+.contact-container img {
     height: 10vh;
     margin-right: 5vh;
     border-radius: 1vh;
 }
 
-.contact-icons img:hover {
+.contact-container img:hover {
     scale: 1.4;
     color: white;
     transition: all 0.3s ease-in-out;
@@ -27,5 +27,5 @@
     font-size: 24px;
     margin-bottom: 10px;
     text-align: center;
-  }
+}
   
