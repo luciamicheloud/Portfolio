@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import ProjectCard from './ProjectCard';
 import projectsData from './projectsData';
 import './projects.css';
 
-const ProjectsContainer = () => {
+const ProjectsContainer = ({text}, ref) => {
   return (
-    <div className="projects-container">
+    <div ref={ref} className="projects-container">
       <h2>Projects</h2>
       <div className="project-carousel">
         {projectsData.map((project) => (
@@ -16,4 +16,4 @@ const ProjectsContainer = () => {
   );
 };
 
-export default ProjectsContainer;
+export default forwardRef(ProjectsContainer);
