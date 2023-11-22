@@ -80,6 +80,7 @@
 @media only screen and (max-width: 768px) {
     .LandingContainer {
         flex-direction: column;
+        width: 95vh;
     }
 
     .imageContainer img{

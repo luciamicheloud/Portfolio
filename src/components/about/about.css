@@ -49,4 +49,11 @@
     color: #636926;
     scale: 1.01;
   }
+
+  @media only screen and (max-width: 768px) {
+    .about-container {
+        width: 95vh;
+    }
+
+  }
   

@@ -49,3 +49,10 @@
   color: #C7AA12;
   scale: 1.01;
 }
+
+@media only screen and (max-width: 768px) {
+  .skills-container {
+      width: 95vh;
+  }
+
+}
