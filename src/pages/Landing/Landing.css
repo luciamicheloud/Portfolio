@@ -76,3 +76,11 @@
     padding: none;
     margin-bottom: -1vh;
 }
+
+@media only screen and (max-width: 768px) {
+    .LandingContainer {
+      flex-direction: column; /* Cambiado de nowrap a column para cambiar el diseño a columna en pantallas más pequeñas */
+    }
+  
+
+  }
