@@ -87,4 +87,8 @@
         width: 80vh;
     }  
 
+    .textContainer h1{
+        font-size: 2vh;
+    }
+
   }
