@@ -15,7 +15,7 @@ function Landing() {
         <h2>Fullstack developer</h2>
       </div>
 
-<Contact/>
+<Contact className="Contact"/>
 
 </div>
 

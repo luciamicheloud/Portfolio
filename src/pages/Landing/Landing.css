@@ -79,8 +79,11 @@
 
 @media only screen and (max-width: 768px) {
     .LandingContainer {
-      flex-direction: column; /* Cambiado de nowrap a column para cambiar el diseño a columna en pantallas más pequeñas */
+        flex-direction: column;
     }
-  
+
+    .imageContainer img{
+        width: 80vh;
+    }  
 
   }

@@ -16,7 +16,8 @@ const Contact = () => {
   return (
 <div>
     <div className="contact-icons">
-        <img
+        <img 
+        className="gmail"
         onClick={handleGmailClick}
           src="https://freelogopng.com/images/all_img/1657906274logo-gmail-png.png"
           alt="Gmail"
