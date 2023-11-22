@@ -5,21 +5,47 @@
     align-items: center;
 
     padding: 50px;
-    background-color: rgba(0, 0, 0, 0.744);
+    background-color: #4f81a45a;
     border-radius: 1rem;
     margin-right: 2.5vh;
     margin-left: 2.5vh;
     margin-top: 2.5vh;
     width: 185vh;
     height: 25vh;
-  }
+}
   
 .skills-icons img {
     height: 20vh;
     margin: 10px;
-  }
+}
 
 .skills-icons img:hover{
     height: 21vh;
     margin: 10px;
-  }
+}
+
+.skills-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  padding: 5vh;
+  background-color: rgba(0, 0, 0, 0.744);
+  border-radius: 1rem;
+  margin-right: 2.5vh;
+  margin-left: 2.5vh;
+  margin-top: 2.5vh;
+
+}
+
+.skills-container p{
+  font-size: 3.8vh;
+  font-weight: bold;
+}
+
+.skills-container p:hover{
+  color: #C7AA12;
+  scale: 1.01;
+}

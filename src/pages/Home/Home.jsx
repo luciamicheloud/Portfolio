@@ -6,26 +6,26 @@ import Footer from '../../components/footer/Footer';
 import Landing from '../Landing/Landing';
 
 function Home() {
+  const aboutRef = useRef(null);
+  const skillsRef = useRef(null);
+  const projectsRef = useRef(null);
 
-  const ref = useRef(null);
-
-  const handleClick = () => {
-    ref.current?.scrollIntoView({ behavior: 'smooth', duration: '5000' });
+  const handleClick = (ref) => {
+    ref.current?.scrollIntoView({ behavior: 'smooth' });
   }
 
   return (
     <div className="homeContainer">
-      
-<div> //NavBar
-      <button onClick={handleClick}>About</button>
-      <button onClick={handleClick}>Skills</button>
-      <button onClick={handleClick}>Projects</button>
-</div>
+      <div> {/* NavBar */}
+        <button onClick={() => handleClick(aboutRef)}>About</button>
+        <button onClick={() => handleClick(skillsRef)}>Skills</button>
+        <button onClick={() => handleClick(projectsRef)}>Projects</button>
+      </div>
 
       <Landing />
-      <About ref={ref} text="about" />
-      <Skills ref={ref} text="skills" />
-      <Projects ref={ref} text="projects" />
+      <About ref={aboutRef} />
+      <Skills ref={skillsRef} />
+      <Projects ref={projectsRef} />
       <Footer />
     </div>
   );

@@ -34,9 +34,19 @@
     font-size: 24px;
     margin-bottom: 10px;
   }
+
+  .about-text h2:hover{
+    color: #C7AA12;
+    scale: 1.01;
+  }
   
   .about-text p {
     font-size: 16px;
     color: #888;
+  }
+
+  .about-text p:hover{
+    color: #636926;
+    scale: 1.01;
   }
   
