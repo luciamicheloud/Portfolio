@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './contact.css';
 
-const Contact = ({text}, ref) => {
+const Contact = () => {
   const [copiedMessage, setCopiedMessage] = useState('');
 
   const handleGmailClick = () => {
@@ -14,7 +14,7 @@ const Contact = ({text}, ref) => {
   };
 
   return (
-<div ref={ref}>
+<div>
     <div className="contact-icons">
         <img
         onClick={handleGmailClick}

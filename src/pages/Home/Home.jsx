@@ -16,7 +16,7 @@ function Home() {
   return (
     <div className="homeContainer">
       
-<div>
+<div> //NavBar
       <button onClick={handleClick}>About</button>
       <button onClick={handleClick}>Skills</button>
       <button onClick={handleClick}>Projects</button>
